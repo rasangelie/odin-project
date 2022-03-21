@@ -1,0 +1,173 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px 0 80px;
+  
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.content {
+    /* flex: 1; */
+    display: flex;
+    height: 528px;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 50px;
+    padding: 40px 80px 50px 80px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    color: #1F2937;
+    max-width: 792px;
+    max-height: 132px;
+    
+}
+
+p {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    text-align: justify;
+    line-height: 20px;
+    
+}
+
+button {
+    margin-top: 20px;
+    background-color: #3B82F6;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-style: none;
+    border-radius: 7px;
+    padding: 8px 40px;
+    cursor: pointer;
+}
+
+.cast {
+    padding: 10px;
+}
+
+.cast-color {
+    color: #1F2937;
+    text-align: center;
+
+}
+
+.flex-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px 50px 80px;
+
+}
+
+.names {
+    color: #1F2937;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.quote-author {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: right;
+  
+}
+
+.ads {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 362px;
+}
+
+
+.ads-cont {
+    border-radius: 20px;    
+    background-color: #3B82F6;
+    width: 1028px;
+    height: 153px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.ads-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.watch {
+    margin-top: 20px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 7px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+
+.footer {
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+}
